@@ -1,85 +1,47 @@
-The stack that is being used: React (custom hooks, context, portals), Firebase (Firestore/auth), Compound & Styled components!
+## Tech Stack:
+- **React**: Custom hooks, context, portals
+- **Firebase**: Firestore & Authentication
+- **Styled Components**: Compound components and styling
 
-Hey! I finally finished this Netflix clone (took me more time than I expected 😅). My idea was to make everything static (movies, series, tv shows, ...) but then I found this really cool TMDB API which you can pull most popular movies, top rated shows, what's trending, collections, lists and muuuch more. Really worth checking the effort made.
+## Project Overview:
+Hey everyone! 🎉 I’m excited to share that I’ve finally completed my Netflix clone project. It took a bit longer than anticipated, but it was a great learning experience! 😅
 
-First use the <b>Firebase App</b> api key of your's as the project's api keys has been removed and you can add them in /lib/firebase.prod.js file and <b>tmdb</b> api key also needs to be changed, which is present in request.js file under the project directory.
+Initially, I was going to use static data for movies, series, and TV shows. Then, I discovered the TMDB API, which provides a wealth of dynamic data such as popular movies, top-rated shows, trending collections, and more. The API was a game-changer, and I highly recommend checking it out!
 
-<img src="/images/demo1.png">
+### Key Features:
+- **Dynamic Content**: Pulls data from TMDB API for movies, shows, and collections.
+- **Firebase Integration**: Authentication and Firestore for user data management.
+- **YouTube Trailers**: Embedded trailers to enhance the viewing experience.
 
-<img src="/images/demo2.png">
+### Setup Instructions:
+To run the project locally, follow these steps:
 
-With Youtube Trailers Embeded
+1. **API Keys**: You’ll need your own Firebase and TMDB API keys.
+    - Replace the Firebase keys in the `lib/firebase.prod.js` file.
+    - Replace the TMDB API key in the `request.js` file located in the project directory.
 
-<img src="/images/demo3.png">
+2. **Install Dependencies**: Run `npm install` to install all necessary packages.
 
+3. **Start the Application**: Run `npm start` to launch the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-# Getting Started with Create React App
+4. **Run Tests**: Use `npm test` to run the test suite in interactive watch mode.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+5. **Build for Production**: Execute `npm run build` to create a production build. The app will be optimized for best performance.
 
-## Available Scripts
+6. **Eject Configuration**: If you need to customize the configuration, use `npm run eject`. (Note: This is a one-way operation and not reversible.)
 
-In the project directory, you can run:
+### Screenshots:
 
-### `npm start`
+<img src="/images/demo1.png" alt="Demo Image 1">
+<img src="/images/demo2.png" alt="Demo Image 2">
+<img src="/images/demo3.png" alt="Demo Image 3">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Learn More:
+- For more information about the tools and libraries used, check out the official documentation:
+  - [React Documentation](https://reactjs.org/)
+  - [Firebase Documentation](https://firebase.google.com/docs)
+  - [TMDB API Documentation](https://developers.themoviedb.org/3)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I hope you find the project useful and inspiring! If you have any feedback or questions, feel free to reach out.
